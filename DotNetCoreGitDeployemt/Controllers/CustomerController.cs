@@ -10,6 +10,7 @@ namespace DotNetCoreGitDeployemt.Controllers
     {
         public IActionResult Index()
         {
+            string str = "Room";
             return View();
         }
     }
